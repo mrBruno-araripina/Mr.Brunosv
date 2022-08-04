@@ -1,0 +1,166 @@
+
+
+
+
+body {
+	background: linear-gradient(-45deg, #0a1dc5c2, #0867f5, #23a6d5, rgba(189, 4, 189, 0.815), #23d5ab, purple, rgb(0, 183, 255));
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+  
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.list-group{
+    margin-top: 0px;
+    width: 50%;
+  
+}
+
+.audio{
+    width: 770px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.page1 {
+    margin-right: 0px;
+    width: 0px;
+    height: 0px;
+
+}
+
+.slider {
+    display: block;
+    height: 230px;
+    width: 600px;
+    margin-top: 0px;
+    margin-left: 700px;
+    
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+    height: 750px;
+    width: 750px;
+}
+
+.slider img {
+    margin-top: 0px;
+    height: 750px;
+    width: 750px;
+    margin-left: 9%;
+    vertical-align: top;
+    border-radius: 12px;
+    border: 4px solid #27292A;
+    border-bottom: 30px solid #27292A;
+    box-shadow: 10px 10px 30px #27292a93;
+
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    margin-left: 44%;
+    background-color: #a52d2724;
+    bottom: 8px;
+    border: 2px solid #A52D27;
+    cursor: pointer;
+    display: block;
+    height: 7px;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    z-index: 10;
+    border-radius: 30px;
+}
+
+.slider label:hover {
+    margin-left: 44%;
+    background-color: #A52D27;
+    bottom: 8px;
+    border: 2px solid #A52D27;
+    cursor: pointer;
+    display: block;
+    height: 7px;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    z-index: 10;
+    border-radius: 30px;
+}
+
+.slider li:nth-child(1) label {
+    left: 30px;
+}
+
+.slider li:nth-child(2) label {
+    left: 60px;
+}
+
+.slider li:nth-child(3) label {
+    left: 90px;
+}
+
+.slider li:nth-child(4) label {
+    left: 120px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked~img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+
+
+
+
+/*foter*/
+
+footer {
+
+	flex-shrink: 0;
+	left: 0;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	height: 35px;
+	background-color: rgba(0, 0, 0, 0.048);
+	
+	
+}
+.botao1{
+	padding-left: 91%;
+
+}
+.buton{
+	gap: 10px;
+}
+
+.list-group-item{
+    background-color: #0e87c42c;
+}
